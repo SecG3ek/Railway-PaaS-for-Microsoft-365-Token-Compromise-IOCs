@@ -1,0 +1,6 @@
+/api/device/start
+/api/device/status/{sessionId}
+/api/ext/device/start
+/api/ext/device/status/{sessionId}
+/api/ext/link/create
+/api/ext/link/create?email={email}
