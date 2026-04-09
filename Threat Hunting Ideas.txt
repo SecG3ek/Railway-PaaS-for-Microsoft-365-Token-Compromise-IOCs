@@ -1,0 +1,29 @@
+These were directly supported by public reporting and are worth turning into detection content:
+
+workers\.dev with one of:
+adobe
+docusign
+onedrive
+sharepoint
+voicemail
+quarantine
+page-password
+calendar_invite
+index
+
+URLs containing both:
+/api/device/start
+/api/device/status/
+
+Requests with header:
+X-Antibot-Token
+
+Sign-ins from:
+162.220.232.0/22
+162.220.234.0/22
+
+Non-interactive Entra sign-ins with:
+BAV2ROPC
+
+UA combinations like:
+iPhone / iOS 18.x + Version/26.x
