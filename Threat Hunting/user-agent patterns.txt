@@ -1,0 +1,8 @@
+Notable user-agent patterns seen in the activity:
+
+BAV2ROPC
+iPhone iOS 18.7 / Safari Version/26.3
+Linux Chrome 146 (X11; Linux x86_64)
+
+The BAV2ROPC user agent was explicitly tied to automated programmatic token refresh from Railway. 
+Huntress also called out the iPhone UA with Version/26.3 as synthetic because that browser/version pairing does not make sense for iOS 18 in early 2026
