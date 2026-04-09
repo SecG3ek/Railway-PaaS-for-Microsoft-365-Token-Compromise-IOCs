@@ -1,0 +1,21 @@
+The threat actors use predictable Workers naming conventions.
+  You should hunt for these name patterns
+
+Common patterns:
+
+adobe-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+page-adobe-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+calendar_invite-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+docusign-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+page-docusign-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+quarantine-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+fax-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+onedrive-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+page-password-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+sharepoint-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+voicemail-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+index-[a-z0-9]{3}.[a-z0-9-]{3,}-s-account.workers.dev
+
+Huntress also noted a generic form like:
+
+[lure-type]-[3char-id].[username]-[domain]-s-account.workers.dev/[tracking-hash]
