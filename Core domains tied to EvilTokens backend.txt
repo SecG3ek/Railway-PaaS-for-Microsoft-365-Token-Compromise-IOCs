@@ -1,0 +1,4 @@
+techroboticslabmade[.]com — central C2 / “MailVault” platform
+macmamo[.]com — self-hosted PHP backend
+bibf.ac[.]bw — compromised gate site
+acb.af — redirector
